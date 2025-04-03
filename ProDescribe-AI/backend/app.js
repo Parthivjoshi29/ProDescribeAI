@@ -53,7 +53,7 @@ const authMiddleware = (req, res, next) => {
 // Initialize OpenAI client for Llama
 const openai = new OpenAI({
     baseURL: 'https://integrate.api.nvidia.com/v1',
-    apiKey: process.env.NVAPI_KEY || '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',
+    apiKey: process.env.NVAPI_KEY || 'UES_YOUR_API_KEY',
     dangerouslyAllowBrowser: true
 });
 
